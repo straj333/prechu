@@ -1,0 +1,20 @@
+.main_contrary {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    &_pencil {
+        text-align: center;
+        padding: 3vw 0;
+        h4 {
+            padding: 33px 0 10px 0;
+            font-size: 20.35px;
+            color: #5094f2;
+            font-weight: 100;
+        }
+        p {
+            font-size: 14.35px;
+            color: #909090;
+            font-weight: 100;
+        }
+    }
+}
