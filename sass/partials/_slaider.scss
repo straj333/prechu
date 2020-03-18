@@ -14,6 +14,10 @@
         position: relative;
         margin: auto;
     }
+    @media screen and (max-width:576px) {
+        background-position-y: top;
+        background-size: inherit;
+    }
 }
 
 

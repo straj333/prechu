@@ -28,3 +28,15 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "flex";
     dots[slideIndex - 1].className += " active";
 }
+
+
+//navbar start
+
+document.getElementById("trigger").onclick = function() { open() };
+
+function open() {
+    document.getElementById("menu").classList.toggle("show");
+    // document.getElementById("trigger").classList.toggle("active");
+}
+
+//navbar end
